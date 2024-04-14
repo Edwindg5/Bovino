@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #7CFC00;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ganado.controller.MainController">
+    <children>
+        <Button layoutX="243.0" layoutY="95.0" mnemonicParsing="false" onAction="#mostrarRegistroGanado" text="Registrar Ganado" />
+        <Button layoutX="243.0" layoutY="145.0" mnemonicParsing="false" onAction="#mostrarEliminarGanado" text="Eliminar Ganado" />
+        <Button layoutX="243.0" layoutY="195.0" mnemonicParsing="false" onAction="#mostrarVerDatosGanado" text="Ver Datos del Ganado" />
+        <Button layoutX="243.0" layoutY="245.0" mnemonicParsing="false" onAction="#mostrarBuscarGanado" text="Buscar Ganado" />
+        <Button layoutX="243.0" layoutY="295.0" mnemonicParsing="false" onAction="#mostrarRealizarVentas" text="Realizar Ventas" />
+    </children>
+</AnchorPane>
+

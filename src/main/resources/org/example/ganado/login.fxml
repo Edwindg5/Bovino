@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #7CFC00;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ganado.controller.LoginController">
+    <children>
+        <Label layoutX="298.0" layoutY="152.0" text="Usuario:" />
+        <TextField fx:id="usuarioField" layoutX="245.0" layoutY="180.0" />
+        <Label layoutX="288.0" layoutY="275.0" text="Contraseña:" />
+        <PasswordField fx:id="contrasenaField" layoutX="245.0" layoutY="304.0" />
+        <Button layoutX="463.0" layoutY="356.0" mnemonicParsing="false" onAction="#login" text="Iniciar Sesión" />
+        <Text layoutX="309.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOPEZ" />
+    </children>
+</AnchorPane>
